@@ -160,13 +160,54 @@ nav a:hover {
     background-color: #39aee1;
     margin-top: 10px;
 }
+
 #rodape {
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
     height: 40px;
     line-height: 40px;
-    color: #5c5c5c;
+    color: white;
     font-size: 12px;
     margin-top: 30px;
+}
+
+@media (max-width: 800px) {
+    .banner_headline h1 {
+        font-size: 55px;
+        padding: 20px;
+    }
+
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral {
+        padding: 20px;
+    }
+
+    #rodape {
+        flex-direction: column;
+        padding: 20px;
+    }
+    nav a {
+        padding: 2px;
+        font-size: 13px;
+    }
+    nav ul {
+        flex-direction: column;
+        margin: 10px;
+    }
+    header {
+        margin: 30px;
+    }
 }
