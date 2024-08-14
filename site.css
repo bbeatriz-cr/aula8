@@ -199,14 +199,17 @@ nav a:hover {
         flex-direction: column;
         padding: 20px;
     }
+
     nav a {
         padding: 2px;
         font-size: 13px;
     }
+
     nav ul {
         flex-direction: column;
         margin: 10px;
     }
+
     header {
         margin: 30px;
     }
